@@ -8,6 +8,7 @@ export default function Home() {
     <Fragment>
       <div className='w-[1280px]  max-w-4xl mx-auto bg-green-200 flex'>
        <p className='text-red-700 text-3xl mx-auto'> hello From next JS</p>
+       <p className='text-red-700 text-3xl mx-auto'> hello From next JS</p>
       </div>
     </Fragment>
   )
