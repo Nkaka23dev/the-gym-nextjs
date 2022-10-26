@@ -1,7 +1,14 @@
-function GreenButton(props) {
-    return (
-        <button className="bg-darkGreen py-2 px-6 text-white font-semibold rounded-sm">{props.name}</button>
-    )      
-} 
+function GreenButton (props) {
+  return (
+    <button
+      className='
+    transition ease-in-out delay-200 shadow-2xl 
+    btn-custom-bg btn text-lightColor
+      hover:translate-y-1 hover:scale-110'
+    >
+      {props.name}
+    </button>
+  )
+}
 
-export default GreenButton;
+export default GreenButton
