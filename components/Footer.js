@@ -3,7 +3,7 @@ import Link from "next/link";
 function Footer (props) {
   return (
       <section className='h-full bg-darkGreen py-16'>
-        <div className='w-[1280px] max-w-[80%] mx-auto h-40 text-white flex justify-between '>
+        <div className='w-[1280px] max-w-5xl mx-auto h-40 text-white flex justify-between '>
           <div className='flex flex-col justify-between h-full'>
             <div>
               <h1 className='text-white font-bold tracking-wider'>BuildIt</h1>

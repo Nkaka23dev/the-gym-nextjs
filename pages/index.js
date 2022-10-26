@@ -73,7 +73,7 @@ export default function Home () {
         <div className='flex justify-around py-28'>
           <div className='space-y-3'>
             <img
-              src='/icons/icon0.png'
+              src='/icons/Icon0.png'
               className='py-3 px-3 shadow-green-200 shadow-2xl bg-darkGreen'
             />
             <h1 className='text-darkGreen font-bold'>Feature Listing</h1>
@@ -82,14 +82,14 @@ export default function Home () {
             </span>
           </div>
           <div className='space-y-3'>
-            <img src='/icons/icon0.png ' className='py-3 px-3 bg-darkGreen' />
+            <img src='/icons/Icon0.png ' className='py-3 px-3 bg-darkGreen' />
             <h1 className='text-darkGreen font-bold'>Available Properties</h1>
             <span className='text-sm text-darkGreen'>
               Lorem ipsum sit amet dit ra <br></br> Lorem ipsum sit amet dit ra
             </span>
           </div>
           <div className='space-y-3'>
-            <img src='/icons/icon0.png ' className='py-3 px-3 bg-darkGreen' />
+            <img src='/icons/Icon0.png ' className='py-3 px-3 bg-darkGreen' />
             <h1 className='text-darkGreen font-bold'>In the News</h1>
             <span className='text-sm text-darkGreen'>
               Lorem ipsum sit amet dit ra <br></br> Lorem ipsum sit amet dit ra
