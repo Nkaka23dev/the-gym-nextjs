@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 function Footer (props) {
   return (
       <section className='h-full bg-darkGreen py-16'>
@@ -14,10 +16,10 @@ function Footer (props) {
           {/* Next Div */}
           <div className='flex flex-col justify-between '>
             <ul className='text-sm space-y-2'>
-              <li>Service1</li>
-              <li>Service2</li>
-              <li>Service3</li>
-              <li>Service4</li>
+              <li> Service1 <Link href=""><a></a></Link></li>
+              <li> Service2 <Link href=""><a></a></Link></li>
+              <li> Service3 <Link href=""><a></a></Link></li>
+              <li> Service4 <Link href=""><a></a></Link></li>
             </ul>
             <div>
               <div>
@@ -32,19 +34,19 @@ function Footer (props) {
           {/* Next Div */}
           <div className='flex flex-col justify-between '>
             <ul className='text-sm space-y-2'>
-              <li>About Us</li>
-              <li>Services</li>
-              <li>Projects</li>
-              <li>Contact</li>
+              <li> <Link href="/"><a>About Us</a></Link> </li>
+              <li> <Link href=""><a>Services</a></Link></li>
+              <li> <Link href=""><a>Projects </a></Link></li>
+              <li> <Link href=""><a> Contact</a></Link></li>
             </ul>
           
           </div>
           {/* Next Div */}
           <div className='flex flex-col justify-between'>
             <ul className='text-sm space-y-2'>
-              <li>Get In Touch</li>
-              <li>60 Manor Station st. Fairport</li>
-              <li>NY 141450</li>
+              <li> Get In T <Link href=""><a></a></Link>ouch</li>
+              <li> 60 Manor <Link href=""><a></a></Link> Station st. Fairport</li>
+              <li> NY 14145 <Link href=""><a></a></Link>0</li>
              
             </ul>
             <div>

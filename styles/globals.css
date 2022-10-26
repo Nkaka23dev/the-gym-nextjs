@@ -13,3 +13,13 @@
 .btn{
     @apply py-1.5 px-6 rounded-md font-semibold rounded-sm
 }
+.btn--lg{
+    @apply px-10
+}
+.form-bg{
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+    border-radius: 5px;
+}
+.about-bg {
+    background: linear-gradient(42.43deg, #C6DBFF 0%, #E1EBFA 52.25%);
+}
