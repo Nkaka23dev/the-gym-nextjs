@@ -1,5 +1,4 @@
-import { Fragment } from "react";
-import Footer from "../components/layout/Footer";
+import { Fragment } from "react"; 
 import NavBar from '../components/layout/NavBar' 
 
 export default function Service() {

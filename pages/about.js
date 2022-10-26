@@ -1,8 +1,6 @@
-import { Fragment } from "react";
-import Footer from "../components/layout/Footer";
+import { Fragment } from "react"; 
 import NavBar from '../components/layout/NavBar';
-import GreenButton from '../components/buttons/GreenButton';
-import LightButton from '../components/buttons/LightButton';
+import GreenButton from '../components/buttons/GreenButton'; 
 
 function About() {
     return (
