@@ -1,6 +1,5 @@
-import { Children, Fragment } from "react"
-import Footer from "./Footer"
-import NavBar from "./NavBar"
+import { Children, Fragment } from "react" 
+import Footer from "./footer"
 
 function Wrapper (props) {
   return (
