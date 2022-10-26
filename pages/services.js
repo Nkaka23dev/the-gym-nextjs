@@ -1,5 +1,5 @@
 import { Fragment } from "react"; 
-import NavBar from '../components/layout/NavBar' 
+import NavBar from '../components/NavBar' 
 
 export default function Service() {
     return (

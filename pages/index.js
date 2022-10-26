@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
-import GreenButton from '../components/buttons/GreenButton'
-import LightButton from '../components/buttons/LightButton' 
-import NavBar from '../components/layout/NavBar'
+import GreenButton from '../components/GreenButton'
+import LightButton from '../components/LightButton' 
+import NavBar from '../components/NavBar'
 
 export default function Home () {
   return (

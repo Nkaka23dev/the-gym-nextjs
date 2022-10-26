@@ -1,5 +1,5 @@
 import Link from "next/link";
-import GreenButton from "../buttons/GreenButton";
+import GreenButton from "./GreenButton";
 
 import React from 'react'
 
