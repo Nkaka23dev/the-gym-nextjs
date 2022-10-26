@@ -1,5 +1,5 @@
-import { Children, Fragment } from "react" 
-import Footer from "./footer"
+import { Children, Fragment } from "react"  
+import Footer from './Footer'
 
 function Wrapper (props) {
   return (
