@@ -14,10 +14,10 @@ export default function NavBar() {
       </a>
        </Link> 
         <ul className="flex gap-7">
-            <li> <Link href="/about"><a className="text-green-700 ">About</a></Link></li>
-            <li> <Link href="/services"><a  className="text-green-700">Services</a></Link> </li>
-            <li> <Link href="/projects"><a  className="text-green-700">Projects</a></Link> </li>
-            <li> <Link href="/contact"><a  className="text-green-700">Contact</a></Link></li>
+            <li> <Link href="/about"><a className="text-green-700 hover:underline hover:text-lg">About</a></Link></li>
+            <li> <Link href="/services"><a  className="text-green-700 hover:underline hover:text-lg">Services</a></Link> </li>
+            <li> <Link href="/projects"><a  className="text-green-700 hover:underline hover:text-lg">Projects</a></Link> </li>
+            <li> <Link href="/contact"><a  className="text-green-700 hover:underline hover:text-lg">Contact</a></Link></li>
         </ul> 
         <GreenButton name="Need a project?"/>
     </div>
