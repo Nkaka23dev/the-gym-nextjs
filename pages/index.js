@@ -1,7 +1,7 @@
 import { Fragment } from 'react'
 import GreenButton from '../components/GreenButton'
 import LightButton from '../components/LightButton' 
-import Link from 'next/Link'
+import Link from 'next/link'
 import NavBar from '../components/NavBar'
 
 export default function Home () {
