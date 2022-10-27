@@ -1,6 +1,7 @@
 import { Fragment } from "react";  
 import GreenButton from '../components/GreenButton'; 
 import NavBar from "../components/NavBar";
+import LightButton from '../components/LightButton' 
 
 function About() {
     return (
@@ -29,6 +30,9 @@ function About() {
 
             <div className='h-full w-full sm:w-2/5 relative my-auto ml-20 '>
               <div>
+              <div className='text-start pb-5'>
+              <h1 className='text-base  text-secondary cursor-pointer'>About Us</h1>
+            </div>
                 <div>
                   <h1 className='text-3xl font-bold text-darkGreen tracking-wide'>
                     Owner and Investor with a reputation
@@ -49,7 +53,7 @@ function About() {
           </div>
         </section>
         {/* Next Section  */}
-        <section className='h-full bg-hero pb-10 pt-20'>
+        <section className='h-full pb-10 pt-20'>
           <div className='w-[1280px] max-w-5xl mx-auto'>
             {/* First Division */}
             <div className='text-center'>
@@ -61,15 +65,15 @@ function About() {
           </div>
         </section>
             {/*Section after the header start here  */}
-      <section className='h-full w-[1280px] max-w-5xl bg-[#E1EBFA] mt-10 mx-auto flex flex-col '>
+      <section className='h-full w-[1280px] max-w-5xl bg-[#E1EBFA] shadow-2xl shadow-[#E1EBFA] mt-10 mx-auto flex flex-col '>
         <div className='flex justify-around py-10'>
-          <div className='space-y-3 flex'>
+          <div className='flex justify-center gap-3 items-center'>
             <img
               src='/icons/Icon0.png'
               className='py-3 px-3 h-10 shadow-green-200 shadow-2xl bg-darkGreen'
             />
            <div>
-           <h1 className='text-darkGreen font-bold'>Feature </h1>
+           <h1 className='text-darkGreen font-bold'>200</h1>
             <span className='text-sm text-darkGreen'>
               Lorem 
             </span>
@@ -101,6 +105,7 @@ function About() {
           </div>
         </div>
       </section>
+
       <section className='h-full  py-10'>
         <div className=' w-[1280px] max-w-5xl mx-auto'>
           <hr className='bg-darkGreen'></hr>
@@ -116,6 +121,7 @@ function About() {
           <div></div>
         </div>
       </section>
+
        {/* Next Section  */}
        <section className='h-full bg-hero pb-10 pt-20'>
         <div className='w-[1280px] max-w-5xl mx-auto'>
@@ -143,6 +149,22 @@ function About() {
               <img src='/svgs/sv16.svg' className='-mt-5' />
             </div>
           </div>
+        </div>
+      </section>
+      <section className='h-full  py-10'>
+        <div className=' w-[1280px] max-w-5xl mx-auto'>
+          <hr className='bg-darkGreen'></hr>
+          <div className='flex py-5 justify-between w-4/5 mx-auto'>
+            <h className="text-2xl text-darkGreen font-bold">Call Us</h>
+            <div className='flex gap-3'>
+               <GreenButton name='call' /> 
+               <LightButton name='Email' />
+            </div>
+         
+          </div>
+          <hr className='bg-darkGreen'></hr>
+          <hr className='bg-darkGreen'></hr>
+          <div></div>
         </div>
       </section>
       </div>

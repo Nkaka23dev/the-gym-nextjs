@@ -1,6 +1,7 @@
 import { Fragment } from 'react'
 import GreenButton from '../components/GreenButton'
 import LightButton from '../components/LightButton' 
+import Link from 'next/Link'
 import NavBar from '../components/NavBar'
 
 export default function Home () {
@@ -30,8 +31,8 @@ export default function Home () {
                 </h1>
               </div>
               <div className='mt-24 flex gap-3'>
-                <GreenButton name='Services' />
-                <LightButton name='About the company' />
+                <Link href='/services'><a><GreenButton name='Services' /> </a></Link>
+                <Link href='/about'><a><LightButton name='About the company' /></a></Link>
               </div>
             </div>
           </div>
@@ -82,14 +83,14 @@ export default function Home () {
             </span>
           </div>
           <div className='space-y-3'>
-            <img src='/icons/Icon0.png ' className='py-3 px-3 bg-darkGreen' />
+            <img src='/svgs/s2.svg' className='py-3 px-3 bg-darkGreen' />
             <h1 className='text-darkGreen font-bold'>Available Properties</h1>
             <span className='text-sm text-darkGreen'>
               Lorem ipsum sit amet dit ra <br></br> Lorem ipsum sit amet dit ra
             </span>
           </div>
           <div className='space-y-3'>
-            <img src='/icons/Icon0.png ' className='py-3 px-3 bg-darkGreen' />
+            <img src='/svgs/s3.svg' className='py-3 px-3 bg-darkGreen' />
             <h1 className='text-darkGreen font-bold'>In the News</h1>
             <span className='text-sm text-darkGreen'>
               Lorem ipsum sit amet dit ra <br></br> Lorem ipsum sit amet dit ra
@@ -120,9 +121,12 @@ export default function Home () {
           {/* First section of the flex row column */}
 
           <div className='h-full w-full sm:w-2/5 relative'>
-            <a href='#' className='absolute -top-10 z-10 text-secondary'>
-              About Us
-            </a>
+      
+            <Link href='/about'>
+              <a className='absolute -top-10 z-10 text-secondary'>
+                About Us
+              </a>
+            </Link>
             <div>
               <div>
                 <h1 className='text-3xl font-bold text-darkGreen tracking-wide'>
@@ -139,7 +143,7 @@ export default function Home () {
                 </h1>
               </div>
               <div className='mt-10 flex gap-3'>
-                <GreenButton name='Explore' className='btn--lg' />
+              <Link href='/about'><a><GreenButton name='Explore' className='btn--lg w-full mt-5' /> </a></Link>
               </div>
             </div>
           </div>
@@ -231,7 +235,7 @@ export default function Home () {
               </div>
               {/* Sub div one */}
               <div className='flex gap-5'>
-                <img src='/svgs/sv17.svg' className='bg-btFormColor px-3' />
+                <img src='/svgs/s1.svg' className='bg-btFormColor px-3' />
                 <div className='flex flex-col'>
                   <span>Email</span>
                   <span>sales@buildit.site</span>
@@ -239,7 +243,7 @@ export default function Home () {
               </div>
               {/* Sub div one */}
               <div className='flex gap-5'>
-                <img src='/svgs/sv17.svg' className='bg-btFormColor px-3' />
+                <img src='/svgs/s1.svg' className='bg-btFormColor px-3' />
                 <div className='flex flex-col'>
                   <span>office</span>
                   <span>60 Minor Station St.<br></br>Fairport, NY 14450.</span>
@@ -295,7 +299,7 @@ export default function Home () {
                 class='border border-darkGreen w-full px-3 py-2 text-gray-700 border rounded-lg focus:outline-none'
                 rows='4'
               ></textarea>
-              <GreenButton name='Explore' className='btn--lg w-full mt-5' />
+              <Link href='/about'><a><GreenButton name='Explore' className='btn--lg w-full mt-5' /> </a></Link>
             </div>
           </div>
         </div>
